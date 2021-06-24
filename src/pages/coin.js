@@ -1,5 +1,6 @@
 $(document).ready(function () {
     getCoins();
+    
 });
 
 function getCoins() {
@@ -28,3 +29,10 @@ function getCoins() {
         }
         );
     }
+
+    function logout() {
+    
+        localStorage.removeItem("token");  
+        window.location= "../pages/login.html";       
+                 
+      }
