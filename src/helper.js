@@ -1,6 +1,7 @@
 
 var apiurl = 'https://localhost:44337/';
-var baseHref = 'file:///C:/Users/MONSTER/Desktop/DashBoard/index.html';
+var baseHref = '///C:/Users/MONSTER/Documents/GitHub/Desktop/DashBoard/index.html';
+//file:///C:/Users/MONSTER/Documents/GitHub/CoinDashBoard/src/pages/coin.html
 $(document).ready(function () {
     
     $.getData = function (method, page, _data, callBack) {
@@ -26,7 +27,7 @@ $(document).ready(function () {
             }
         }).catch((err)=>{
             if(err.status===401)
-                window.location.href = "file:///C:/Users/MONSTER/Desktop/Dashboard/src/pages/login.html";
+                window.location.href = "file:///C:/Users/MONSTER/Documents/GitHub/CoinDashBoard/src/pages/login.html";
         });
     }
 

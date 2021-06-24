@@ -19,7 +19,7 @@ function login() {
 
             //Swal.fire("Yönlendiriliyorsunuz", "Giriş Başarılı Yönlendiriliyorsunuz ", "success");
 
-            window.location = "../pages/coin.html";
+            window.location = "file:///C:/Users/MONSTER/Documents/GitHub/CoinDashBoard/src/pages/coin.html";
             console.log(response.data.token);
         }
 

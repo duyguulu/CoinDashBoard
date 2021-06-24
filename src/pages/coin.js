@@ -33,6 +33,6 @@ function getCoins() {
     function logout() {
     
         localStorage.removeItem("token");  
-        window.location= "../pages/login.html";       
+        window.location= "file:///C:/Users/MONSTER/Documents/GitHub/CoinDashBoard/src/pages/login.html";       
                  
       }
